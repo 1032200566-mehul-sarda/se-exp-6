@@ -26,7 +26,7 @@ def balance_enquiry():
 is_quit = False
 
 print('')
-print("Welcome to the Pythondex ATM")
+print("Welcome to the Pythondex ATM:")
 
 pin = int(input('Please enter your four digit pin: '))
 
