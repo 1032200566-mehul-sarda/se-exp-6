@@ -7,7 +7,8 @@ date1 = 112233
 date2 = 223344
 
 
-option = int(input("What would you like to do: \n1.Reservation Form\n2.Ticket Info\n3.Ticket Cancellation\n4.Exit\nEnter Here: "))
+option = int(input(
+    "What would you like to do: \n1.Reservation Form\n2.Ticket Info\n3.Ticket Cancellation\n4.Exit\nEnter Here: "))
 if option == 1:
     name = input("Enter Your Name: ")
     mobile = int(input("Enter Your Mobile Number: "))
@@ -27,5 +28,5 @@ elif option == 3:
         print("Ticket Cancelled")
     else:
         print("Enter Correct Pin")
-elif option == 4:    
+elif option == 4:
     print("Thank You")
